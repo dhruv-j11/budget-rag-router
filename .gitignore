@@ -3,6 +3,5 @@ __pycache__/
 *.pyc
 checkpoints/
 results/*.json
-figures/
 *.egg-info/
 .DS_Store
