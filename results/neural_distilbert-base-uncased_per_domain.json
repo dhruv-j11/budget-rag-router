@@ -1,0 +1,246 @@
+{
+  "medical": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert-base-uncased_medical",
+    "test_macro_f1": 0.8751978180549608,
+    "domain_results": {
+      "Medical": 0.8751978180549608
+    },
+    "best_val_f1": 0.838415682871973,
+    "best_epoch": 4,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.9283199657996496,
+        "val_loss": 0.5173131028811137,
+        "val_macro_f1": 0.621680216802168
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.36583967400448664,
+        "val_loss": 0.3048115207089318,
+        "val_macro_f1": 0.8307587464516007
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.24225183061900593,
+        "val_loss": 0.29311154451635146,
+        "val_macro_f1": 0.8220527268146315
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.17513431085362322,
+        "val_loss": 0.28108203907807666,
+        "val_macro_f1": 0.838415682871973
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.13845591610741048,
+        "val_loss": 0.2818235978484154,
+        "val_macro_f1": 0.8345980719115048
+      }
+    ],
+    "total_params": 66365187,
+    "trainable_params": 66365187,
+    "confusion_matrix": [
+      [
+        159,
+        3,
+        3
+      ],
+      [
+        3,
+        64,
+        9
+      ],
+      [
+        3,
+        4,
+        36
+      ]
+    ]
+  },
+  "musique": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert-base-uncased_musique",
+    "test_macro_f1": 0.9687671824504065,
+    "domain_results": {
+      "MuSiQue": 0.9687671824504065
+    },
+    "best_val_f1": 0.958944658944659,
+    "best_epoch": 4,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.49882242345326655,
+        "val_loss": 0.1879499522037804,
+        "val_macro_f1": 0.8776550891160596
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.0910710895723487,
+        "val_loss": 0.09849411208415404,
+        "val_macro_f1": 0.936344977187424
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.029921858530567103,
+        "val_loss": 0.10603749720030464,
+        "val_macro_f1": 0.9446179368471744
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.012643666318114343,
+        "val_loss": 0.08957837466005003,
+        "val_macro_f1": 0.958944658944659
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.006181614503352526,
+        "val_loss": 0.09567782831436489,
+        "val_macro_f1": 0.9578194026955562
+      }
+    ],
+    "total_params": 66365187,
+    "trainable_params": 66365187,
+    "confusion_matrix": [
+      [
+        56,
+        3,
+        1
+      ],
+      [
+        5,
+        384,
+        0
+      ],
+      [
+        0,
+        0,
+        55
+      ]
+    ]
+  },
+  "quality": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert-base-uncased_quality",
+    "test_macro_f1": 0.9902629708599857,
+    "domain_results": {
+      "QuALITY": 0.9902629708599857
+    },
+    "best_val_f1": 0.9902671213412901,
+    "best_epoch": 5,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.7457188952852178,
+        "val_loss": 0.23174251367648444,
+        "val_macro_f1": 0.9629757763298673
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.10338976875775391,
+        "val_loss": 0.08971867322300871,
+        "val_macro_f1": 0.9790228299211869
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.03141975920233461,
+        "val_loss": 0.0802924525924027,
+        "val_macro_f1": 0.9854014598540145
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.01336404762265307,
+        "val_loss": 0.08110468733745317,
+        "val_macro_f1": 0.9854014598540145
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.0054833264935209795,
+        "val_loss": 0.07803289836738259,
+        "val_macro_f1": 0.9902671213412901
+      }
+    ],
+    "total_params": 66365187,
+    "trainable_params": 66365187,
+    "confusion_matrix": [
+      [
+        66,
+        2,
+        0
+      ],
+      [
+        0,
+        69,
+        0
+      ],
+      [
+        0,
+        0,
+        43
+      ]
+    ]
+  },
+  "legal": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert-base-uncased_legal",
+    "test_macro_f1": 0.9847016828148903,
+    "domain_results": {
+      "Legal": 0.9847016828148903
+    },
+    "best_val_f1": 1.0,
+    "best_epoch": 4,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.7699281280594212,
+        "val_loss": 0.23808296024799347,
+        "val_macro_f1": 0.9578039927404719
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.11578142393513449,
+        "val_loss": 0.05901128348583976,
+        "val_macro_f1": 0.978902628156651
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.020176643622107804,
+        "val_loss": 0.01753504908022781,
+        "val_macro_f1": 0.9940471444896225
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.012047673592210881,
+        "val_loss": 0.007279637075650196,
+        "val_macro_f1": 1.0
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.004710485601598131,
+        "val_loss": 0.00853802946706613,
+        "val_macro_f1": 1.0
+      }
+    ],
+    "total_params": 66365187,
+    "trainable_params": 66365187,
+    "confusion_matrix": [
+      [
+        54,
+        2,
+        0
+      ],
+      [
+        1,
+        78,
+        0
+      ],
+      [
+        0,
+        0,
+        57
+      ]
+    ]
+  }
+}

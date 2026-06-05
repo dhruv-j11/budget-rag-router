@@ -1,0 +1,64 @@
+{
+  "model": "distilbert-base-uncased",
+  "tag": "distilbert-base-uncased_combined",
+  "test_macro_f1": 0.949194183177554,
+  "domain_results": {
+    "Medical": 0.8546991291794619,
+    "MuSiQue": 0.9531176437864085,
+    "QuALITY": 0.9790240890149434,
+    "Legal": 0.9693109293976865
+  },
+  "best_val_f1": 0.9572378527340728,
+  "best_epoch": 3,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4978558013116467,
+      "val_loss": 0.16894316179929553,
+      "val_macro_f1": 0.9369003922571144
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.12006320943504836,
+      "val_loss": 0.12876147559114,
+      "val_macro_f1": 0.9511177720442628
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.05340763589865997,
+      "val_loss": 0.15359952520402903,
+      "val_macro_f1": 0.9572378527340728
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.028505578356417524,
+      "val_loss": 0.17007049759598197,
+      "val_macro_f1": 0.9567297937571438
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.01750873416123537,
+      "val_loss": 0.17278597835526877,
+      "val_macro_f1": 0.9549591634939544
+    }
+  ],
+  "total_params": 66365187,
+  "trainable_params": 66365187,
+  "confusion_matrix": [
+    [
+      331,
+      14,
+      4
+    ],
+    [
+      14,
+      590,
+      9
+    ],
+    [
+      6,
+      6,
+      186
+    ]
+  ]
+}

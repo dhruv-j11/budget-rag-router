@@ -1,0 +1,64 @@
+{
+  "model": "huawei-noah/TinyBERT_General_4L_312D",
+  "tag": "TinyBERT_General_4L_312D_combined",
+  "test_macro_f1": 0.9319738084878427,
+  "domain_results": {
+    "Medical": 0.8429028989770239,
+    "MuSiQue": 0.9221290415639326,
+    "QuALITY": 0.9511272831050229,
+    "Legal": 0.9567499618464702
+  },
+  "best_val_f1": 0.9379733246197789,
+  "best_epoch": 4,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5866311492299187,
+      "val_loss": 0.2862036934978253,
+      "val_macro_f1": 0.8912100109995257
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.22505007648961783,
+      "val_loss": 0.23323644174111857,
+      "val_macro_f1": 0.918403889030507
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.17008201279760113,
+      "val_loss": 0.20458027156623634,
+      "val_macro_f1": 0.922905750184661
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13517338240287713,
+      "val_loss": 0.19391452334821224,
+      "val_macro_f1": 0.9379733246197789
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.11308678865058006,
+      "val_loss": 0.20137749184426423,
+      "val_macro_f1": 0.9322911844650975
+    }
+  ],
+  "total_params": 14351187,
+  "trainable_params": 14351187,
+  "confusion_matrix": [
+    [
+      312,
+      31,
+      6
+    ],
+    [
+      21,
+      585,
+      7
+    ],
+    [
+      4,
+      7,
+      187
+    ]
+  ]
+}
