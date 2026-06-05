@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Macro-F1 across domains for classical and neural routing classifiers.}
+\begin{tabular}{llccccc}
+\toprule
+Method & Features & MuSiQue & QuALITY & Legal & Medical & Overall \\
+\midrule
+SVM & TFIDF & 0.925 & 0.959 & 0.939 & 0.790 & 0.920 \\
+LogReg & TFIDF & 0.901 & 0.936 & 0.944 & 0.768 & 0.908 \\
+RF & TFIDF & 0.892 & 0.937 & 0.920 & 0.808 & 0.909 \\
+GBM & TFIDF & 0.848 & 0.940 & 0.897 & 0.768 & 0.882 \\
+kNN & TFIDF & 0.887 & 0.883 & 0.919 & 0.616 & 0.866 \\
+FlaxQueryRouter(2L-256d-4h) & Neural (9M) & 0.340 & 0.515 & 0.412 & 0.520 & 0.448 \\
+\bottomrule
+\end{tabular}
+\end{table}
